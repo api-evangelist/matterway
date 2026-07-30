@@ -1,24 +1,66 @@
 aid: matterway
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/matterway.png
 name: Matterway
-description: 'Matterway is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Matterway is an enterprise-grade, AI-native intelligent assistance platform built for
+  operations teams at large organizations and BPOs. Its screen-aware digital Assistant sits on top of
+  the systems employees already use, guiding people through complex workflows while automating document
+  data extraction, data verification, form pre-fill, and cross-application navigation. Processing stays
+  client-side inside the corporate network, and the Assistant acts with the same rights as the logged-in
+  user, which is aimed at regulated industries such as banking, insurance, and healthcare. Skills are
+  authored in a no-code Designer, exported to a low-code SDK, and monitored from a management console.
+  Matterway was acquired by Cognizant in October 2025. This profile was added to the API Evangelist
+  network as a portfolio company of HV Capital and enriched by the local pipeline; Matterway publishes
+  no public developer API, SDK registry package, or OpenAPI at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/matterway/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hv-capital
+x-acquired-by: cognizant
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Enterprise Software
+- Intelligent Automation
+- Digital Assistant
+- Workflow Automation
+- Document Processing
+- Enterprise AI
+- BPO
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/matterway-domain-security.yml
+- type: Website
+  url: https://matterway.io
+- type: Blog
+  url: https://matterway.io/blogs
+- type: Support
+  url: https://matterway.io/faq
+- type: PrivacyPolicy
+  url: https://www.cognizant.com/us/en/privacy-notice
